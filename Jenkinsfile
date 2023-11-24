@@ -5,7 +5,7 @@ pipeline {
 
         stage('Build app') {
             steps {
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Aishwarya-Utpat/Aishwarya-Java-repo']])
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Aishwarya-Utpat/Aishwarya-Java-repo.git']])
             }
         }
         
